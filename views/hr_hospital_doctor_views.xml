@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+
         <record id="view_hr_hospital_doctor_list" model="ir.ui.view">
             <field name="name">hr.hospital.doctor.list</field>
             <field name="model">hr.hospital.doctor</field>
@@ -34,5 +35,6 @@
             <field name="res_model">hr.hospital.doctor</field>
             <field name="view_mode">list,form</field>
         </record>
+
     </data>
 </odoo>

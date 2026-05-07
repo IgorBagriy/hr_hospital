@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1"> <!-- noupdate="1" дозволяє редагувати дані вручну після інсталяції -->
+    <data noupdate="1">
 
-        <!-- Головний лікар (Ментор) -->
         <record id="doctor_perry_cox" model="hr.hospital.doctor">
             <field name="name">Percival Ulysses Cox</field>
             <field name="specialization">Chief of Medicine / Internal Medicine</field>
         </record>
 
-        <!-- Молодші лікарі, закріплені за ментором -->
         <record id="doctor_john_dorian" model="hr.hospital.doctor">
             <field name="name">John 'J.D.' Dorian</field>
             <field name="specialization">Internal Medicine</field>
@@ -21,14 +19,7 @@
             <field name="mentor_id" ref="doctor_perry_cox"/>
         </record>
 
-        <!-- Ще один лікар без ментора -->
-        <record id="doctor_bob_kelso" model="hr.hospital.doctor">
-            <field name="name">Bob Kelso</field>
-            <field name="specialization">Hospital Administrator</field>
-        </record>
-
-        <!-- Молодший лікар, закріплений за Терком (ієрархія) -->
-        <record id="doctor_elliot_reid" model="hr.hospital.doctor">
+         <record id="doctor_elliot_reid" model="hr.hospital.doctor">
             <field name="name">Elliot Reid</field>
             <field name="specialization">Endocrinology</field>
             <field name="mentor_id" ref="doctor_john_dorian"/>

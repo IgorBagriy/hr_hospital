@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Odoo Server 19.0\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,7 +41,7 @@ msgstr "Хвороби"
 #: model:ir.model.fields,field_description:hr_hospital.field_hr_hospital_patient__name
 #: model:ir.model.fields,field_description:hr_hospital.field_hr_hospital_disease__name
 msgid "Full Name"
-msgstr "ПІБ"
+msgstr "Найменування"
 
 #. module: hr_hospital
 #: model:ir.model.fields,field_description:hr_hospital.field_hr_hospital_patient__date_of_birth
